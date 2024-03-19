@@ -1,0 +1,17 @@
+.loader{
+    animation: rotate 1s infinite linear;
+
+}
+body{
+    background: #ECECEC;
+
+}
+
+@keyframes rotate {
+    from{
+        transform:rotate(0deg) scale(1)
+    }
+    to{
+        transform: rotate(360deg) scale(1.4);
+    }
+}

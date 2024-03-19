@@ -1,0 +1,22 @@
+.myBtnWrapper {
+    position: fixed;
+    bottom: 0px;
+    width: calc(100% - 40px); /* Пространство для кнопки справа и слева */
+    left: 20px; /* Или нужное вам значение */
+    z-index: 999; /* Убедитесь, что кнопка находится выше остального контента */
+}
+.ntclown
+{
+}
+.myBtn {
+    width: 100%;
+    padding: 16px;
+    background: linear-gradient(to right, #FB527B, #FEE03B);
+    border-radius: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 16px;
+    text-transform: uppercase;
+}

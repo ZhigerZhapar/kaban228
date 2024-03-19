@@ -1,0 +1,30 @@
+
+
+._container {
+    min-width: 85vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding: 0 20px;
+}
+
+.header__container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button__block {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px; /* 133.333% */
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}

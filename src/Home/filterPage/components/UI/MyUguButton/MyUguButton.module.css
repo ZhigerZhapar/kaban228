@@ -1,0 +1,19 @@
+
+
+.button__block {
+
+}
+
+.myBtn {
+    padding: 8px 16px;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 160% */
+    text-transform: uppercase;
+    border: 1px solid #ECECEC;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

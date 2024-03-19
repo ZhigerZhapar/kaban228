@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container _container">
+                <div class="header__block__1">
+                    <div class="header__block__1__image__block">
+                        <img src="imgs/header/darya.svg" alt="">
+                    </div>
+                    <div class="header__text">
+                        <div class="header__block__1__name">Дарья</div>
+                        <div class="header__block__1__saves">5 сохранений</div>
+                    </div>
+                </div>
+                <div class="header__block__2">
+                    <div class="header__block__2__image__block">
+                        <img class="header__block__2__img" src="imgs/header/tool.svg" alt="">
+                        <img onclick="showInput()" class="header__block__2__img" id="loop__btn" src="imgs/header/loop.svg" alt="">
+                    </div>
+                </div>
+
+
+                <!-- Код после изменения -->
+                <img id="showLoop" src="imgs/header/loop.svg" alt="">
+                <input type="text" id="searchInput" placeholder="Поиск">
+            </div>
+        </header>
+        <main class="main" id="main__space">
+            <section class="section__places">
+                <div class="section__places__container _container">
+                    <h2 class="section__places__header">КУДА ПОЙДЕМ?</h2>
+
+                    <div class="section__places__image__block image__block">
+                        <img class="image__block__img" src="imgs/main/section__places/saint-petersburg.png" alt="">
+                    </div>
+
+                    <div class="section__places__card__block card">
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/coffee.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Где поесть</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/circus.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Интересные места</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/woman.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Развлечения</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/castle.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Музеи и выставки</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/tree.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Загородом</p>
+                        </div>
+                        <div class="card__item">
+                            <div class="card__item__img">
+                                <img src="imgs/main/section__places/icons/loop.svg" alt="">
+                            </div>
+                            <p class="card__item__paragraph">Экскурсии</p>
+                        </div>
+                    </div>
+
+                    <div class="section__places__button">
+                        <button class="section__places__btn">Искать места рядом с вами</button>
+                    </div>
+                </div>
+            </section>
+            <section class="section__slider">
+                <div class="section__slider__container _container">
+                    <div class="section__slider__images slider__images">
+                        <div class="slider__images__1">
+                            <div class="section__slider__arrow">
+                                <img class="slider__arrow" src="imgs/main/section__slider/icons/arrow-up-right.svg" alt="">
+                            </div>
+                            <div class="section__slider__text slider__text">
+                                <p class="slider__text__paragraph">Подборка</p>
+                                <h2 class="slider__text__header">ТОП 5 КОФЕЕН</h2>
+                                <h2 class="slider__text__header">В ПЕТЕРБУРГЕ ЗА 2023</h2>
+                            </div>
+                            <img class="section__slider__img__1" src="imgs/main/section__slider/pic.png" alt="">
+                        </div>
+                        <div class="slider__images__2">
+                            <div class="section__slider__arrow">
+                                <img class="slider__arrow" src="imgs/main/section__slider/icons/arrow-up-right.svg" alt="">
+                            </div>
+                            <img class="section__slider__img__2" src="imgs/main/section__slider/pic_2.png" alt="">
+                            <div class="section__slider__text slider__text">
+                                <p class="slider__text__paragraph">акция</p>
+                                <h2 class="slider__text__header">Ральф кофе дарит</h2>
+                                <h2 class="slider__text__header">скидку 20%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__publications">
+                <div class="section__publications__container _container">
+                    <h2 class="section__publications__header">Последние публикации</h2>
+
+                    <div class="section__publications__card__block card__block">
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/lamp.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">Места загород</p>
+                                <h4 class="block__item__header">Гончарная студия на побережье</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/workshop.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">базы отдыха</p>
+                                <h4 class="block__item__header">We Lodge</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/figurines.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">КОНЦЕРТ</p>
+                                <h4 class="block__item__header">Концерт в студии при свечах</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/ottoman.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">КОНЦЕРТ</p>
+                                <h4 class="block__item__header">Вивальди. Времена года</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item spanned">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/city.png" alt="">
+                            <div class="block__item__text block__item__text__spanned">
+                                <p class="block__item__paragraph block__item__text__spanned__paragraph">Кофейня</p>
+                                <h4 class="block__item__header block__item__text__spanned__header">Дом Мюнхаузена</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/palace.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">КОНЦЕРТ</p>
+                                <h4 class="block__item__header">Чайковский. Ноктюрн номер 6</h4>
+                            </div>
+                        </div>
+                        <div class="card__block__item block__item">
+                            <div class="block__item__icons">
+                                <button class="block__item__button"><img class="block__item__icon" src="imgs/main/section__publications/icons/heart.svg" alt=""></button>
+                            </div>
+                            <img class="block__item__img" src="imgs/main/section__publications/food.png" alt="">
+                            <div class="block__item__text">
+                                <p class="block__item__paragraph">КОНЦЕРТ</p>
+                                <h4 class="block__item__header">Chang cafe</h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section__publications__button">
+                        <button class="section__publications__btn">Загрузить еще</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container _container">
+                <h2 class="footer__header">связаться с нами</h2>
+
+                <div class="footer__cards">
+                    <div class="footer__cards__item">
+                        <img class="footer__cards__img" src="imgs/footer/icons/telega.svg" alt="">
+                    </div>
+                    <div class="footer__cards__item">
+                        <img class="footer__cards__img" src="imgs/footer/icons/instagram.svg" alt="">
+                    </div>
+                    <div class="footer__cards__item">
+                        <img class="footer__cards__img" src="imgs/footer/icons/globe.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.button__select__row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+.button__select__row:last-child {
+    margin-bottom: 0px;
+}
+
+@media (max-width: 340px) {
+    .button__select__row {
+        padding-left: 10px;
+    }
+}
+
+.button__image {
+    padding: 0;
+    height: 24px;
+    background: #ececec;
+    border-radius: 50%;
+    object-fit: cover;
+}
